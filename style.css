@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(yellow,orange,red,purple);
+  font-family:cursive;
+}
+.ll{
+  width:100px;
+  height:50px;
+  font-size:40px;
+  border:5px solid black;
+  border-radius:15px;
+  padding:10px 50px 10px 50px;
+  background-image: linear-gradient(red,grey,purple);
+  transition: all 4s ease 0s;
+  position:relative;
+  left:600px;
+  top:0px;
+}
+.ll:hover{
+   transform: scale(3,3) translate(0px,100px);
+}
+.pol{
+  width:220px;
+  height:120px;
+  background-color:red;
+  font-size:20px;
+  padding:60px 50px 60px 50px;
+  position:relative;
+  transition: all 2s ease 0s;
+  left:30px;
+}
+.pol:hover{
+   transform: rotate3D(3, 3, 3 ,360deg);
+}
+.polo{
+  width:200px;
+  height:100px;
+  background-color:purple;
+  font-size:20px;
+  padding:60px 50px 60px 50px;
+  position:relative;
