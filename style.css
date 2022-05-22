@@ -40,3 +40,28 @@ html, body {
   font-size:20px;
   padding:60px 50px 60px 50px;
   position:relative;
+  transition: all 2s ease 0s;
+  left:1200px;
+  bottom:220px;
+}
+.polo:hover{
+   transform: translate3D(50px, -50px ,200px);
+}
+.polot{
+  width:120px;
+  height:100px;
+  background-color:grey;
+  font-size:20px;
+  padding:60px 50px 60px 50px;
+  position:relative;
+  transition: all 2s ease 0s;
+  border-radius:420px;
+  left:600px;
+  bottom:100px;
+}
+a{
+}
+.polot:hover{
+   transform: rotate(360deg);
+  color:blue;
+}
