@@ -59,8 +59,6 @@ html, body {
   left:600px;
   bottom:100px;
 }
-a{
-}
 .polot:hover{
    transform: rotate(360deg);
   color:blue;
